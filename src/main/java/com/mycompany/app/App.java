@@ -16,6 +16,10 @@ public class App {
     }
 
     public String getMessage() {
+        return MESSAGE;
+    }
+	
+    public String getNewMessage() {
         return NEWMESSAGE;
     }
 }
